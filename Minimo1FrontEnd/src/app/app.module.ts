@@ -7,12 +7,18 @@ import { CourseCardComponent } from './course-card/course-card.component';
 
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PrincipalComponent } from './principal/principal.component';
+import { NuevoComponent } from './nuevo/nuevo.component';
+import { ModificarComponent } from './modificar/modificar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CourseCardComponent
+    CourseCardComponent,
+    PrincipalComponent,
+    NuevoComponent,
+    ModificarComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,7 @@
 # Minimo1 Jordi Rodriguez
 
 # Install Project
-1. git clone https://github.com/jordi0907/EA-minimo1
+1. git clone https://github.com/jordi0907/Minimo1EA
 2. Install nodejs, mongodb 
 
 # Execute Backend

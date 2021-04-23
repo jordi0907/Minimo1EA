@@ -5,7 +5,7 @@ import morgan from 'morgan';
 import cors from 'cors';
 import bodyParser from'body-parser';
 
-import coursesRoutes from './routes/courses.routes';
+import personasRoutes from './routes/persona.routes';
 
 
 
@@ -13,7 +13,7 @@ import coursesRoutes from './routes/courses.routes';
 const app = express();
 
 // settings
-app.set('port', process.env.PORT || 3001);
+app.set('port', process.env.PORT || 3000);
 
 
 // middlewares
@@ -24,11 +24,7 @@ app.use(express.json());
 app.use(bodyParser.json());
 
 
-//rutas
-/*  app.get('/', (req, res) => {
-  return res.status(400).send(`The API is at http://localhost:${app.get('port')}`);
-});  */
 
-/* app.use(coursesRoutes); */
+ app.use('/persona', personasRoutes ); 
 
 export default app;
